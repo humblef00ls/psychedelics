@@ -47,11 +47,14 @@ export const time_periods = [
             This concept goes a long way toward explaining not just why witch-hunting mania exploded in Europe, but also why it took hold where it did: Germany.\
             The context here is best summarized by Voltaire, who famously remarked that the Holy Roman Empire was “neither holy, nor Roman, nor an empire”. \
              ',
-            '$/imgs/med_img_4.jpeg',
+            '$L/imgs/med_img_4.jpeg',
 
-            'Thus, we now see how a group of substances, understood only by the observation of their effects, came to even be of relevance to the defacto authority of the time.\
-             As we will see in the next section, The Church\'s\
-            position on the use of psychedelics would go on to have consequences that would dictate the compound history of psychedelics in other cultures and settings.\
+            '\
+            By following the compound histroy of psychedelics in this setting, we uncover context about the geo-political conflicts of the time.\
+            Humans have sought to fight for power ever since the concept has existed. For their greater goal of maintaining their position, The Catholic Church pushed onto \
+            the people a stigmatized view on psychedelics. \
+            From here, we will see how the Church\'s\
+            position on the use of psychedelics would go on to have consequences that would dictate their compound history in other cultures and settings.\
               '
 
         ]

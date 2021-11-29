@@ -1,6 +1,7 @@
 <script>
 	let adjs = ["Condensed", "Conflicting", "Confusing"];
 	import { page } from "$app/stores";
+	import { fly,fade } from 'svelte/transition';
 	let curridx = 0;
 	let curradjs = [adjs[curridx]];
 	let box;
@@ -9,8 +10,8 @@
 	let y2 = 0;
 	let last = 0;
 	$: frac = Math.min(y / (box ? box.clientHeight : 1), 1);
-	$: flip = last - y >= 0 && frac < .99 ? false : true;
-	$: sector = Math.round(box2 ? y2/box2.clientHeight : 0)
+	$: flip = last - y >= 0 && frac < 0.99 ? false : true;
+	$: sector = Math.round(box2 ? y2 / box2.clientHeight : 0);
 
 	import { time_periods } from "$store";
 	import { onMount } from "svelte";
@@ -32,31 +33,39 @@
 		if (node.clientHeight < node.scrollHeight) {
 			node.classList.add("shadow-bottom");
 			node.addEventListener("scroll", () => {
-				if(node.clientHeight + node.scrollTop >= node.scrollHeight){
+				if (node.clientHeight + node.scrollTop >= node.scrollHeight) {
 					node.classList.add("shadow-top");
 					node.classList.remove("shadow-bottom");
-					
+
 					node.classList.remove("shadow-both");
-				}
-				else if (node.scrollTop == 0) {
+				} else if (node.scrollTop == 0) {
 					node.classList.add("shadow-bottom");
 					node.classList.remove("shadow-top");
 					node.classList.remove("shadow-both");
-					
-				}
-				else{
+				} else {
 					node.classList.add("shadow-both");
-					
 				}
 			});
 		}
+	}
+	let imgx = undefined
+
+	function handleIMG(e){
+		imgx = e.target.src
+		console.log(imgx)
+		// e.target.classList.toggle('magx') 
+
 	}
 </script>
 
 <svelte:head>
 	<title>History of Psychedelics</title>
 </svelte:head>
-
+{#if imgx}
+	<div class="magx" transition:fade={{duration:300,opacity:0}} on:click={()=>imgx=undefined}> 
+		 <img src={imgx}  class="fullsc"/>
+	</div>
+{/if}
 <Header bind:flip />
 <main
 	bind:this={box}
@@ -66,21 +75,23 @@
 	}}
 >
 	<section class={`title ${flip ? "tshift" : ""} `}>
-		<div  class={`bg ${flip ? "bgs" : ""} `}  style={`background-image: url('${time_periods[sector].bg}');`}/>
-		{#if frac > 0.55}
-			<div style={`opacity:${frac * 1}`}>
-				<Timeline {sector} y={y2} h={box2}/>
-			</div>
-		{:else if frac < 0.45}
-			<h1 style={`opacity:${1 - frac * 1}`}>
-				The
-				{#each curradjs as curradj}
-					<span class="ch">{curradj}</span>
-				{/each}
+		<div
+			class={`bg ${flip ? "bgs" : ""} `}
+			style={`background-image: url('${time_periods[sector].bg}');`}
+		/>
 
-				History of <span class="ch">Psychedelics</span>
-			</h1>
-		{/if}
+		<div class={`ops ${flip ? "showx" : "hidex"}`}>
+			<Timeline {sector} y={y2} h={box2} />
+		</div>
+
+		<h1 class={`ops ${!flip ? "showx" : "hidex"}`}>
+			The
+			{#each curradjs as curradj}
+				<span class="ch">{curradj}</span>
+			{/each}
+
+			History of <span class="ch">Psychedelics</span>
+		</h1>
 	</section>
 	<div class="container" id="home">
 		<section class={`infox ${flip ? "sshift" : ""} `}>
@@ -110,18 +121,16 @@
 					</h3>
 					<article class={`paras  `} use:shadower>
 						{#each time_period.content as content}
-							{#if content[0]=="$"}
-							<p class="img">
-							
-							{#each content.split('$').slice(1) as item}
-
-							<img src={item}  />
-							{/each}
-							 </p>
+							{#if content[0] == "$"}
+								<p class="img">
+									{#each content.split("$").slice(1) as item}
+								
+										<img class={`${item[0]=='L' ? 'si' : 'mi' }`}  src={item[0]=='L' ?  item.slice(1) : item} on:click={handleIMG}/>
+									{/each}
+								</p>
 							{:else}
-							<p class="para">{content}</p>
+								<p class="para">{content}</p>
 							{/if}
-							
 						{/each}
 					</article>
 				</div>
@@ -131,11 +140,50 @@
 </main>
 
 <style>
-	.bg{
+	.ops {
+		position: absolute;
+		transition: 500ms ease-out;
+	}
+	.hidex {
+		opacity: 0;
+		transform: translate3d(-100%, 0, 0);
+	}
+	.showx {
+		opacity: 1;
+	}
+	.si{
+		max-width:unset;
+	}
+	.mi{
+		max-width: '50%' 
+	}
+	.magx{
+		
+		width: 100vw;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		
+		z-index: 100;
+	}
+	.fullsc{
+		height: 80%;
+		width: auto;
+		max-height: unset;
+		max-width: unset;
+		position: absolute;
+		top: 10%;
+		left: 50%;
+		transform: translate(-50%, 0%);
+		cursor: auto;
+	}
+	.bg {
 		height: 100%;
 		width: 100%;
 		position: absolute;
-		
+
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -144,32 +192,28 @@
 		top: 0px;
 		opacity: 0;
 		transition: 400ms ease-out;
-		
-
 	}
-	.bgs{
-		opacity: .3;
-
+	.bgs {
+		opacity: 0.3;
 	}
-	.img{
+	.img {
 		display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 400px;
-    flex-direction: row;
-	margin-bottom: 40px;
-	margin-top: 40px;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 400px;
+		flex-direction: row;
+		margin-bottom: 40px;
+		margin-top: 40px;
 	}
-	img{
-
+	img {
 		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 		max-width: 50%;
 		height: auto;
 		max-height: 400px;
-
-		
+		cursor: pointer;
 	}
-	
+
+
 	.paras {
 		overflow-y: auto;
 		height: calc(100vh - 200px);
@@ -177,19 +221,17 @@
 		transition-duration: 300ms;
 	}
 	.shadow-bottom {
-
 		box-shadow: inset 0 -10px 15px -15px #000000;
 	}
 	.shadow-top {
-
 		box-shadow: inset 0 10px 15px -15px #000000;
 	}
-	.shadow-both{
+	.shadow-both {
 		box-shadow: inset 0 -10px 15px -15px #000000,
-		inset 0 10px 5px -10px #000000;
+			inset 0 10px 5px -10px #000000;
 	}
 	.para {
-		margin:15px;
+		margin: 15px;
 	}
 	.para:first-child {
 		margin-top: 0;
