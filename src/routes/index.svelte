@@ -1,0 +1,325 @@
+<script>
+	let adjs = ["Condensed", "Conflicting", "Confusing"];
+	import { page } from "$app/stores";
+	let curridx = 0;
+	let curradjs = [adjs[curridx]];
+	let box;
+	let box2;
+	let y = 0;
+	let y2 = 0;
+	let last = 0;
+	$: frac = Math.min(y / (box ? box.clientHeight : 1), 1);
+	$: flip = last - y >= 0 && frac < .99 ? false : true;
+	$: sector = Math.round(box2 ? y2/box2.clientHeight : 0)
+
+	import { time_periods } from "$store";
+	import { onMount } from "svelte";
+
+	import Header from "$lib/Header.svelte";
+	import Timeline from "$lib/Timeline.svelte";
+	onMount(() => {
+		let f = setInterval(() => {
+			curridx = (curridx + 1) % adjs.length;
+			curradjs = [adjs[curridx]];
+		}, 1000);
+
+		return () => {
+			clearInterval(f);
+		};
+	});
+
+	function shadower(node) {
+		if (node.clientHeight < node.scrollHeight) {
+			node.classList.add("shadow-bottom");
+			node.addEventListener("scroll", () => {
+				if(node.clientHeight + node.scrollTop >= node.scrollHeight){
+					node.classList.add("shadow-top");
+					node.classList.remove("shadow-bottom");
+					
+					node.classList.remove("shadow-both");
+				}
+				else if (node.scrollTop == 0) {
+					node.classList.add("shadow-bottom");
+					node.classList.remove("shadow-top");
+					node.classList.remove("shadow-both");
+					
+				}
+				else{
+					node.classList.add("shadow-both");
+					
+				}
+			});
+		}
+	}
+</script>
+
+<svelte:head>
+	<title>History of Psychedelics</title>
+</svelte:head>
+
+<Header bind:flip />
+<main
+	bind:this={box}
+	on:scroll={() => {
+		last = y;
+		y = box.scrollTop;
+	}}
+>
+	<section class={`title ${flip ? "tshift" : ""} `}>
+		<div  class={`bg ${flip ? "bgs" : ""} `}  style={`background-image: url('${time_periods[sector].bg}');`}/>
+		{#if frac > 0.55}
+			<div style={`opacity:${frac * 1}`}>
+				<Timeline {sector} y={y2} h={box2}/>
+			</div>
+		{:else if frac < 0.45}
+			<h1 style={`opacity:${1 - frac * 1}`}>
+				The
+				{#each curradjs as curradj}
+					<span class="ch">{curradj}</span>
+				{/each}
+
+				History of <span class="ch">Psychedelics</span>
+			</h1>
+		{/if}
+	</section>
+	<div class="container" id="home">
+		<section class={`infox ${flip ? "sshift" : ""} `}>
+			<p>
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+				eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+				enim ad minim veniam, quis nostrud exercitation ullamco laboris
+				nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+				in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+				sunt in culpa qui officia deserunt mollit anim id est laborum."
+			</p>
+			<div class="scrollx">Scroll to explore</div>
+		</section>
+	</div>
+	<div class="container" id="timeline">
+		<section
+			class={`infox timeliner ${flip ? "sshift" : ""} `}
+			bind:this={box2}
+			on:scroll={() => (y2 = box2.scrollTop)}
+		>
+			{#each time_periods as time_period}
+				<div id={time_period.title.split(" ").join("")}>
+					<h3 class="sectitle">
+						{time_period.title}
+						<span class="timex">{time_period.time}</span>
+					</h3>
+					<article class={`paras  `} use:shadower>
+						{#each time_period.content as content}
+							{#if content[0]=="$"}
+							<p class="img">
+							
+							{#each content.split('$').slice(1) as item}
+
+							<img src={item}  />
+							{/each}
+							 </p>
+							{:else}
+							<p class="para">{content}</p>
+							{/if}
+							
+						{/each}
+					</article>
+				</div>
+			{/each}
+		</section>
+	</div>
+</main>
+
+<style>
+	.bg{
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		left: 0px;
+		top: 0px;
+		opacity: 0;
+		transition: 400ms ease-out;
+		
+
+	}
+	.bgs{
+		opacity: .3;
+
+	}
+	.img{
+		display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    flex-direction: row;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	}
+	img{
+
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+		max-width: 50%;
+		height: auto;
+		max-height: 400px;
+
+		
+	}
+	
+	.paras {
+		overflow-y: auto;
+		height: calc(100vh - 200px);
+		margin-top: 15px;
+		transition-duration: 300ms;
+	}
+	.shadow-bottom {
+
+		box-shadow: inset 0 -10px 15px -15px #000000;
+	}
+	.shadow-top {
+
+		box-shadow: inset 0 10px 15px -15px #000000;
+	}
+	.shadow-both{
+		box-shadow: inset 0 -10px 15px -15px #000000,
+		inset 0 10px 5px -10px #000000;
+	}
+	.para {
+		margin:15px;
+	}
+	.para:first-child {
+		margin-top: 0;
+	}
+	.sectitle {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+		align-items: center;
+	}
+	.timex {
+		font-size: 0.6em;
+		opacity: 0.6;
+		margin-left: 10px;
+	}
+	.timeliner {
+		overflow: hidden;
+		scroll-snap-type: y mandatory;
+		overflow-y: auto;
+		height: calc(100vh - 50px);
+		margin-top: 50px;
+		padding: 0px;
+		width: 70vw;
+	}
+	.infox {
+		transform: translate3d(50vw, 0px, 0px);
+
+		transition: transform 400ms ease-out;
+	}
+	.sshift {
+		transform: translate3d(30vw, 0px, 0px);
+	}
+	.timeliner div {
+		font-size: 1.5em;
+		margin: 0;
+
+		height: 100%;
+		width: 100%;
+		scroll-snap-align: center;
+		padding: 40px 80px;
+	}
+	.timeliner div p {
+		font-size: 1rem;
+	}
+
+	main {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		height: 100vh;
+		width: 100vw;
+		overflow: hidden;
+		background-color: var(--text);
+		scroll-snap-type: y mandatory;
+		overflow-y: scroll;
+	}
+	.title {
+		position: fixed;
+		z-index: 4;
+		box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+			rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+			rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+		width: calc(50vw);
+		transform: translate3d(0%, 0px, 0px);
+		transition: transform 400ms ease-out;
+	}
+	.tshift {
+		transform: translate3d(-20vw, 0px, 0px);
+	}
+	.oshift {
+		opacity: 1;
+	}
+	.container {
+		height: 100vh;
+		width: 100vw;
+
+		scroll-snap-align: start;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+
+	.scrollx {
+		position: absolute;
+		bottom: 10px;
+		left: 0px;
+		width: 100%;
+		height: 50px;
+		text-align: center;
+		opacity: 0.5;
+		transition-duration: 200ms;
+		transition-property: opacity;
+		transition-timing-function: ease-out;
+		color: var(--back);
+	}
+	.scrollx:hover {
+		opacity: 1;
+	}
+	.ch {
+		color: var(--text);
+	}
+	h1,
+	h2 {
+		font-size: 4.4em;
+		color: var(--text-inv);
+		letter-spacing: 4px;
+	}
+	h2 {
+		font-size: 2.4em;
+		text-align: center;
+		font-weight: lighter;
+		padding: 20px 10px;
+	}
+	h3 {
+		font-size: 2rem;
+	}
+	section {
+		width: 50vw;
+		padding: 8vw;
+		height: 100%;
+
+		color: var(--back);
+	}
+	.title {
+		background-color: var(--back);
+	}
+	section p {
+		font-size: 1.2em;
+		line-height: 1.5em;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+</style>

@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+:root{
+    --accent: #012a4a;
+    --text: white;
+    --text-inv: lightgray;
+    --back: #1d1d1d;
+    --section:rgba(242,242,242,1);
+    --section-f:rgba(0,0,0,0.05);
+    --green:rgba(0, 179, 0, 1);
+    --red:rgba(255, 17, 0, 1);
+    --green-l:rgba(0, 179, 0, .2);
+    --red-l:rgba(255, 17, 0, .23);
+    --yellow:rgb(255, 224, 75);
+}
+
+*{
+    font-family: 'Lora', serif;
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+#coder *{
+font-family:unset
+}
+
+body{
+     color:var(--text);
+     background: var(--back);
+
+    }
+
+
+	h1 {
+		font-weight: 400;
+		font-size: 3.5rem;
+		letter-spacing: 4px;
+        text-shadow: 2px 3px 5px rgba(0,0,0,0.1);
+	}
+	h2 {
+		font-size: 1.75rem;
+		letter-spacing: 2px;
+		margin-right: 10px;
+        text-shadow: 2px 3px 5px rgba(0,0,0,0.1);
+	}
+	h3 {
+		font-size: 1rem;
+		font-weight: 400;
+		letter-spacing: 1px;
+		font-weight: 500;
+
+	}
+
+
+    button, input[type="submit"], input[type="reset"] {
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+    }
+
+
+    button{
+        height: fit-content;
+
+        font-weight: 800;
+		letter-spacing: 2px;
+		background-color:black;
+        color: white;
+        border-radius: 20px;
+        width: fit-content;
+
+
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    button{
+        transition-duration: 250ms;
+        transition-timing-function: ease-out;
+    }
+    button:hover{
+        stroke: var(--text-inv);
+        
+        
+    }
+    button:active{
+        transform: translate3d(0px,2px,0px);
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
