@@ -62,10 +62,10 @@ export const time_periods = [
     },
     {
         title: 'The New World',
-        time: '1500s',
-        bg: '/imgs/az_bg.jpeg',
+        time: '1510s',
+        bg: '/imgs/az_bg_2.jpeg',
         content: [
-            'In many ways, the relationship the people of the Aztec empire had with psychedelics was a direct inversion of what we just saw in Medeival Europe.\
+            'In many ways, the relationship the people of the Aztec empire  had with psychedelics was a direct inversion of what we just saw in Medeival Europe.\
             Here, psychedelics actually held an important role in society in religious contexts and their use was not only tolerated but in fact integral to several\
             ceremonies. The benefit of analysing this settings is that here we get to see the two juxtaposing views of psychedelics interact with each other. This will\
             not only help us follow the compound histroy of psychedelics, but also reveal to us the motives and beliefs of the people from both cultures.',
