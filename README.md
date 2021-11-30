@@ -1,10 +1,3 @@
-# Duke CS APT submission front end
-Written in Svelte
+# Compound histories final project
 
-## To Run
-```
-npm i
-npm run dev 
-```
-## Customization 
-In the file `src/app.css`, change the value of the variables in the `:root` element. This should allow a decent amount of theme and color scheme customization.
+[Site hosted here](https://amazing-jepsen-a084d9.netlify.app/)
