@@ -12,7 +12,7 @@ export const time_periods = [
         bg: '/imgs/med_bg.jpeg',
         content: [
 
-            'Our trail of the compound history of psychedelics starts in the Middle Ages in Europe. People of this time did not have a defined \
+            'Our trail of the compound history of psychedelics starts in the Middle Ages in Europe. People of this time did not have a well defined \
             relationship with psychedelics, and there is certainly  speculation and theorising involved in connecting the dots. The first step here is identify\
             when  these interactions took place.\
             Firstly, we do know that some people used psychoactive substances such as mandrake, henbane, and deadly nightshade (belladonna).\
@@ -52,7 +52,7 @@ export const time_periods = [
             '\
             By following the compound histroy of psychedelics in this setting, we uncover context about the geo-political conflicts of the time.\
             Humans have sought to fight for power ever since the concept has existed. For their greater goal of maintaining their position, The Catholic Church pushed onto \
-            the people a stigmatized view on psychedelics. \
+            the people a stigmatized view on psychedelics (Similar to how cannabis was criminalized in the US for political goals). \
             From here, we will see how the Church\'s\
             position on the use of psychedelics would go on to have consequences that would dictate their compound history in other cultures and settings.\
               '
@@ -61,12 +61,48 @@ export const time_periods = [
 
     },
     {
-        title: 'Aztec Empire',
+        title: 'The New World',
         time: '1500s',
         bg: '/imgs/az_bg.jpeg',
         content: [
-            'Para 1',
-            'Para 2'
+            'In many ways, the relationship the people of the Aztec empire had with psychedelics was a direct inversion of what we just saw in Medeival Europe.\
+            Here, psychedelics actually held an important role in society in religious contexts and their use was not only tolerated but in fact integral to several\
+            ceremonies. The benefit of analysing this settings is that here we get to see the two juxtaposing views of psychedelics interact with each other. This will\
+            not only help us follow the compound histroy of psychedelics, but also reveal to us the motives and beliefs of the people from both cultures.',
+
+            '$/imgs/az_img_1.jpeg$/imgs/az_img_2.jpeg',
+
+            'Teonanácatl, or more simply known as God\'s Flesh, was a key part of religious activities and rituals in the Aztec capital city of Tenochtitlan. The magic mushrooms allowed those who ingested them to speak directly to God, heal diseases, and even induce sexual ecstacy.\
+            Mesoamerican tribes had had a long and deep cultural use of hallucinogens, including Psilocybe mushrooms. These mushrooms were often used to commune with the gods, to divine, and for recreation.\
+            Archaeologists have found evidence of ritual use of mushrooms by the Aztecs and Mazatecs as early as 200 AD. Mushroom stones and motifs, statuettes, drawings, and recorded history report mushroom use in Guatemala, Mexico, Colima, and throughout the rest of Central America.\
+            This however, changed forver with the invasion of the Spanish conquistadors in 1519.',
+
+            'This usage of magic mushrooms was quickly suppressed by Catholic missionaries, who saw the shakes, convulsions, and ravings of patients who had consumed the mushrooms as communication with the devil. Despite this, usage continued, often in private.\
+            The first medical record of humans consuming magic mushrooms dates to the late 1500s, and was written by Fray Bernardino de Sahágun:\
+            “They ate mushrooms before dawn when they also drank cacao. They ate the mushrooms with honey and when they began to feel excited due to the effect of the mushrooms, the Indians started dancing, while some were singing and others weeping. Thus was the intoxication produced by the mushrooms. Some Indians who did not care to sing sat down in their rooms remaining there as if to think.”\
+            Natives were punished by death when caught with the mushrooms, and their public use became less common.\
+            Here we see the clash of values and beliefs of these two cultures, proxied through our compound.\
+            The questions to ask here are what role did this play in the goal of the invaders and what can this tell us about the setting?',
+
+            '$/imgs/az_img_3.webp',
+
+            'It is no secret that the common European view of the time of indigenous people was that they were inferior culturally, technologically, and religiously.\
+            The Spanish conquistadors were essentially sanctioned pirates. Their goals primarily focused on stealing wealth for their country and civilizing the natives with Catholicism.\
+            Spain hoped to pacify areas that held extractable natural resources such as iron, tin, copper, salt, silver, gold, etc.\
+            In the papal bull of 1508, Universalis Ecclesiae (Of the Universal Church), Pope Julius II declared that the king of Spain would be the head of the Church in Spain and its empire. Such an empowerment clearly meant that along with Spanish law, governance, language, and culture, the Roman Catholic religion, too, would cross from Europe to the Americas and that the king of Spain would engage in the spread of Christianity to the native peoples of the New World.\
+            Thus, while not just for the sake of making the locals subservient to them, there clearly was econimic motive behind the religious conversion.\
+            Bringing this context of motivation into the picture tells us why the Spanish Missionaries did what they did. Seeing the natives partake in the use of psychedelics, something the Church considered heresy, served as yet another avenue where\
+            they could displace the local culture and religion, and squeeze the Indians into the mold of Spanish culture.\
+            ',
+
+            '$/imgs/az_img_4.jpeg$/imgs/az_img_5.jpeg',
+
+            'There is a striking parallel here to what the Church did back in the Old World (See section "Medieval Europe"). Once again, the compound histroy of psychedelics\
+            was tied to and shaped by authorities with the ambition of power. Of course, this time the scale was powerful armies invading a foreign land, and if not for the diseases\
+            the Europeans brought over with them who knows how things would have played out. Ultimately, this conquest had several important consequences that shaped history\
+            , including things like cultural genocide, the death of millions of natives, a global rush to colonise the New World, the birth of the vile Encomienda system, etc.'
+
+
         ]
 
     },

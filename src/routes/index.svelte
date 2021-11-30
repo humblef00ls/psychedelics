@@ -22,7 +22,7 @@
 		let f = setInterval(() => {
 			curridx = (curridx + 1) % adjs.length;
 			curradjs = [adjs[curridx]];
-		}, 1000);
+		}, 2000);
 
 		return () => {
 			clearInterval(f);
@@ -75,10 +75,13 @@
 	}}
 >
 	<section class={`title ${flip ? "tshift" : ""} `}>
+		{#each time_periods as time_period,i}
 		<div
-			class={`bg ${flip ? "bgs" : ""} `}
-			style={`background-image: url('${time_periods[sector].bg}');`}
+			class={`bg ${  sector == i && flip? "bgs" : ""} `}
+			style={`background-image: url('${time_period.bg}');`}
 		/>
+		{/each}
+
 
 		<div class={`ops ${flip ? "showx" : "hidex"}`}>
 			<Timeline {sector} y={y2} h={box2} />
@@ -208,7 +211,7 @@
 	img {
 		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 		max-width: 50%;
-		height: auto;
+		height: 90%;
 		max-height: 400px;
 		cursor: pointer;
 	}
