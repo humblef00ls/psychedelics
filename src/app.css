@@ -24,6 +24,20 @@
 font-family:unset
 }
 
+*::-webkit-scrollbar {
+    width: 4px
+  }
+   
+  *::-webkit-scrollbar-track {
+
+  }
+   
+  *::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+   
+  }
+
 body{
      color:var(--text);
      background: var(--back);

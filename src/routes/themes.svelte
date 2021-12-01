@@ -100,12 +100,14 @@
         z-index: 10;
         width: 80vw;
         height: 80vh;
-        left: 10vw;
-        top: calc(10vh + 50px);
+        left: 50%;
+        transform: translateX(-50%);
+        top: calc(10vh + 25px);
         background: white;
         color: black;
         padding: 45px 60px;
         border-radius: 25px;
+        max-width: 1000px;
         }
 
         section p{

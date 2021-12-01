@@ -97,15 +97,16 @@
 		</h1>
 	</section>
 	<div class="container" id="home">
-		<section class={`infox ${flip ? "sshift" : ""} `}>
-			<p>
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-				eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-				enim ad minim veniam, quis nostrud exercitation ullamco laboris
-				nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-				in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-				nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-				sunt in culpa qui officia deserunt mollit anim id est laborum."
+		<section class={`thesiser infox ${flip ? "sshift" : ""} `}>
+			<p use:shadower class="thesis">
+				An abundance of compounds have histories storied by love-hate relationships with different pockets of society. This makes sense. We intuitively understand - even from a young age - that many substances are neither good nor bad: the value they provide depends on how we use them, and also how we view the implications of those uses. We can understand them as pharmakon because we share a common understanding of how their impact changes depending on the context. Psychedelics are different.
+				<br><br>
+				Psychedelics are mystical and, to a degree, unpredictable. Their effects vary dramatically based on set, setting and the user. Even under comparable circumstances, psychedelic trips may result in radically different experiences. Most importantly, psychedelic trips take place in the mind. The only person truly equipped to report on the effects is the user themself. This makes it incredibly hard to generalize the effects of psychedelics, and to categorize these substances as wholly “good” or “bad,” even when we have full context of their application. 
+				<br><br>
+				The compound history of fungi-derived psychedelics can appear nonsensical. How is it that the same substances unchanged repeatedly waltz in and out of fashion? We argue that due to the subjective nature of psychedelic trips, widely-held societal beliefs on psychedelics during any snapshot of time are more a reflection of cultural attitudes and impressions of the dominant group/s interacting with psychedelics at that time than of the drugs themselves. 
+				<br><br>
+				As much as psychedelics are ineffable, they are revealing: they do not explain themselves but they do help us better understand the constructs of the societies in which their users exist. 
+				
 			</p>
 			<div class="scrollx">Scroll to explore</div>
 		</section>
@@ -143,6 +144,11 @@
 </main>
 
 <style>
+	.thesis{
+		height: 100%;
+		overflow-y: auto;
+		padding: 1rem;
+	}
 	.ops {
 		position: absolute;
 		transition: 500ms ease-out;
@@ -184,20 +190,20 @@
 	}
 	.bg {
 		height: 100%;
-		width: 100%;
-		position: absolute;
-
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		z-index: -1;
-		left: 0px;
+    	width: 35vw;
+    	position: absolute;
+    	background-size: cover;
+   		background-position: center;
+    	background-repeat: no-repeat;
+    	z-index: -1;
+    	left: 15vw;
 		top: 0px;
-		opacity: 0;
-		transition: 400ms ease-out;
+    	opacity: 0;
+    	transition: 400ms ease-out;
 	}
+
 	.bgs {
-		opacity: 0.3;
+		opacity: 0.4;
 	}
 	.img {
 		display: flex;
@@ -366,5 +372,8 @@
 		line-height: 1.5em;
 		margin-top: 0;
 		margin-bottom: 0;
+	}
+	.thesiser{
+		padding: 5vw;
 	}
 </style>
