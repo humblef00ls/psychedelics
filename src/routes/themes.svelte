@@ -108,6 +108,7 @@
         padding: 45px 60px;
         border-radius: 25px;
         max-width: 1000px;
+        overflow-y: auto;
         }
 
         section p{

@@ -49,10 +49,14 @@
 		}
 	}
 	let imgx = undefined
-
+	let descx = undefined
+	let refx = undefined
 	function handleIMG(e){
 		imgx = e.target.src
-		console.log(imgx)
+		descx = e.target.alt
+		refx = e.target.dataset.ref
+
+		console.log(imgx,refx)
 		// e.target.classList.toggle('magx') 
 
 	}
@@ -63,7 +67,16 @@
 </svelte:head>
 {#if imgx}
 	<div class="magx" transition:fade={{duration:300,opacity:0}} on:click={()=>imgx=undefined}> 
-		 <img src={imgx}  class="fullsc"/>
+		 <img src={imgx}  class="fullsc"  alt={descx}/>
+		 <div class="imgmeta">
+			 <p>
+			 {descx}
+			</p>
+			 
+			 <a href={refx}>Source</a>
+		</div>
+
+
 	</div>
 {/if}
 <Header bind:flip />
@@ -128,8 +141,13 @@
 							{#if content[0] == "$"}
 								<p class="img">
 									{#each content.split("$").slice(1) as item}
-								
-										<img class={`${item[0]=='L' ? 'si' : 'mi' }`}  src={item[0]=='L' ?  item.slice(1) : item} on:click={handleIMG}/>
+
+										<img class={`${item[0]=='L' ? 'si' : 'mi' }`}  
+										src={item[0]=='L' ?  item.slice(1).split('@')[0] : item.split('@')[0]}
+										 on:click={handleIMG} 
+										alt={item.split('@')[1]?.split('~')[0]}
+										data-ref={item.split('@')[1]?.split('~')[1]}
+										/>
 									{/each}
 								</p>
 							{:else}
@@ -183,7 +201,7 @@
 		max-height: unset;
 		max-width: unset;
 		position: absolute;
-		top: 10%;
+		top: 70px;
 		left: 50%;
 		transform: translate(-50%, 0%);
 		cursor: auto;
@@ -200,6 +218,27 @@
 		top: 0px;
     	opacity: 0;
     	transition: 400ms ease-out;
+	}
+	.imgmeta{
+		position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    z-index: 102;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+	}
+
+	.imgmeta a{
+		color: white;
+	}
+	.imgmeta p {
+		padding: 5px 100px;
+		text-align: center;
+
 	}
 
 	.bgs {
