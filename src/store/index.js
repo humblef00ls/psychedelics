@@ -100,7 +100,7 @@ export const time_periods = [
 
             '$imgs/lsd_img_1.jpeg$imgs/lsd_img_2.jpeg',
 
-            **'|Sandoz Pharmaceuticals and the European Pharmaceutical Scene'**,
+            '|Sandoz Pharmaceuticals and the European Pharmaceutical Scene',
 
             'Hofmann’s career as a research chemist stemmed from his childhood entrancement with the plant world (Hofmann 4). In 1929 he joined a modest staff force at Sandoz Company\'s pharmaceutical-chemical research laboratory in Basel, Switzerland. His work revolved around isolating the active principles of known medicinal plants to produce pure specimens of these substances (Hofmann 7).',
             'In the early 1930’s Hofmann requested permission to research ergot alkaloids (Hofmann 8). For reference, ergot is a fungus derivative that grows on rye and has a history dating to the Middle Ages where it was used by midwives to induce labour and restrict postpartum bleeding (Pollan 22). At the time, this was a novel focus but other American and British labs had begun making headway. Hofmann, who fervently loved his line of work, noticed this industry shift and was motivated to ensure Sandoz would maintain its reputation as a pioneering lab, and develop a leading position in what he believed to be a promising space (Hofmann 8).',
@@ -112,7 +112,7 @@ export const time_periods = [
 
             '$imgs/lsd_img_3.jpeg',
 
-            '|First Synthesis and Experiments with LSD',         
+            **'|First Synthesis and Experiments with LSD'**,         
 
             'Hofmann had early success as the first person to synthesize (artificially produce) an ergot alkaloid (Hofmann 12). An inspired and excited Hofmann then began producing new lysergic acid compounds (lysergic acid was the name of the nucleus common to all ergot alkaloids) - ones that he hoped would serve as circulatory and respiratory stimulants. In 1938 he produced the 25th substance in this series: what would eventually become known to the world as LSD. In initial testing on animals nothing notable was observed about this substance, aside from the animals becoming restless, so it was shelved indefinitely and testing was discontinued (Hofmann 13).',
             'However, Hofmann remained drawn to this substance. Curiously, he has never provided a logical explanation as to why, merely that he had “a peculiar presentiment - the feeling that this substance could possess properties other than those established in the first investigations” (Hofmann 15).  So, on April 16th, 1943, five years later, he set out to re-synthesize LSD-25 - guided purely by instinct and curiosity. Despite taking careful precautions,  unbeknownst to him at the time, Hofmann absorbed some of the substance through the skin on his fingertips. He “was interrupted in my work by unusual sensations” (Hofmann 15). Therein, unfolded the world’s first LSD trip: intense, colourful, kaleidoscopic and dreamlike. Astounded by the “extraordinary potency” of the substance, Hofmann knew at this point that he had something special on his hands - literally. ',
