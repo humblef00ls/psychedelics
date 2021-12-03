@@ -99,6 +99,8 @@ export const time_periods = [
             'In his 1979 book, which sought to straighten half-truth narratives surrounding LSD, Hofmann wrote “I was now and again assailed by doubts whether the valuable pharmacological and psychic effects of LSD might be outweighed by its dangers and by possible injuries due to misuse. Would LSD become a blessing for humanity, or a curse?” (Hofmann 43). This question is Hofmann’s legacy, one which extends far beyond his individual dilemma and forcefully continues to reverberate amidst the psychedelic renaissance of our present day',
 
             '$imgs/lsd_img_1.jpeg$imgs/lsd_img_2.jpeg',
+			'Left: “Albert Hofmann Holds a Model of an LSD Molecule.” Nature, 22 May 2013, https://www.nature.com/articles/497435a. Accessed 30 Nov. 2021',
+			'Right: “LSD: My Problem Child: Reflections on Sacred Drugs, Mysticism and Science.” The Book Merchant Jenkins Antiquarian Bookseller, https://www.thebookmerchantjenkins.com/product/lsd-my-problem-child-reflections-on-sacred-drugs-mysticism-and-science-2/. Accessed 30 Nov. 2021.',
 
             '| Sandoz Pharmaceuticals and the European Pharmaceutical Scene',
 
@@ -111,9 +113,8 @@ export const time_periods = [
             'This period came prior to the development of the Nuremberg Principles. These formalised ethical practices in biomedicine in response to the horrific war crimes and Nazi prisoner experiments of World War 2 (Hanley, 33). Though the Nuremberg Principles have been influential towards contemporary ethical regulations, when they were introduced they weren’t universally binding. They also focused mostly on patient rights, including the right to informed consent without coercion. Also, they made explicit that “medical practice should be for the benefit of the patient, and if for research that does not directly benefit the patient, it should not harm the patient” (Hanley, 33). Though the Nuremberg principles weren’t even written during Hofmann’s self-experimentation with LSD (see First Synthesis and Experiments with LSD), they give a sense of European state of affairs pertaining to research and ethical standards in this time period directly prior to their conception.',
 
             '$imgs/lsd_img_3.jpeg',
-			'Left: “Albert Hofmann Holds a Model of an LSD Molecule.” Nature, 22 May 2013, https://www.nature.com/articles/497435a. Accessed 30 Nov. 2021',
-			'Right: “LSD: My Problem Child: Reflections on Sacred Drugs, Mysticism and Science.” The Book Merchant Jenkins Antiquarian Bookseller, https://www.thebookmerchantjenkins.com/product/lsd-my-problem-child-reflections-on-sacred-drugs-mysticism-and-science-2/. Accessed 30 Nov. 2021.',
-
+			'“Example of Rye with Ergot.” Food Safety News, 1 Sept. 2021, https://www.foodsafetynews.com/2021/09/europe-sets-new-ergot-alkaloids-limits/. Accessed 30 Nov. 2021.',
+			
             '| First Synthesis and Experiments with LSD',         
 
             'Hofmann had early success as the first person to synthesize (artificially produce) an ergot alkaloid (Hofmann 12). An inspired and excited Hofmann then began producing new lysergic acid compounds (lysergic acid was the name of the nucleus common to all ergot alkaloids) - ones that he hoped would serve as circulatory and respiratory stimulants. In 1938 he produced the 25th substance in this series: what would eventually become known to the world as LSD. In initial testing on animals nothing notable was observed about this substance, aside from the animals becoming restless, so it was shelved indefinitely and testing was discontinued (Hofmann 13).',
@@ -123,8 +124,8 @@ export const time_periods = [
             'Hofmann turned out more than fine. Once the worst of his trip had passed, he was able to enjoy the remainder, and the aftermath. The next morning he woke up to “a sensation of well-being and renewed life” flowing through him. Trivial daily minutia - like eating breakfast, gave him “extraordinary pleasure” and he felt “the world was as if newly created” (Hofmann 18).',
 
             '$imgs/lsd_img_4.jpeg',
-			'“Example of Rye with Ergot.” Food Safety News, 1 Sept. 2021, https://www.foodsafetynews.com/2021/09/europe-sets-new-ergot-alkaloids-limits/. Accessed 30 Nov. 2021.',
-
+			'Blomerth, Brian. “Bicycle Day.” Los Angeles Times, 26 June 2019, https://www.latimes.com/books/la-ca-jc-bicycle-day-brian-blomerth-lsd-history-20190626-story.html. Accessed 30 Nov. 2021.',
+			
             '| Hofmann’s Initial Impressions of LSD',
 
             'Hofmann was excited, and hopeful, because to his knowledge, no substance could cause “such dramatic changes in human consciousness and our experience of the inner and outer world” (Hofmann 18). This instinctively led him to imagine LSD would be of great value to specialists in pharmacology, neurology and psychiatry (Hofmann 19). He wrote “As the psychic effects of LSD persist even after it can no longer be detected in the organism, we must assume that LSD is not active as such, but that it rather triggers certain biochemical, neurophysiological, and psychic mechanisms that provoke the inebriated condition and continue in the absence of the active principle. [...] Investigations of the interactions of LSD with brain factors like serotonin and dopamine, are examples of how LSD can serve as a tool in brain research, in the study of the biochemical processes that underlie the psychic functions” (Hofmann 23). This illustrates why Hofmann never imagined LSD would be used beyond medical science, as an inebriant in the drug scene: “Since my self-experiment had revealed LSD in its terrifying, demonic aspect, the last thing I could have expected was that this substance could ever find application as anything approaching a pleasure drug” (Hofmann 19).\
@@ -141,7 +142,7 @@ export const time_periods = [
             ',
 
             '$imgs/lsd_img_5.jpeg',
-			'Blomerth, Brian. “Bicycle Day.” Los Angeles Times, 26 June 2019, https://www.latimes.com/books/la-ca-jc-bicycle-day-brian-blomerth-lsd-history-20190626-story.html. Accessed 30 Nov. 2021.',
+			'“Original Bottle of Delysid - Manufactured by Sandoz Pharmaceuticals.” Mapping Ignorance, 7 June 2017, https://mappingignorance.org/2017/06/07/lsd-therapeutic-agent-autism/. Accessed 30 Nov. 2021.',
 
             '| World’s Collide: LSD Meets Counterculture',
 
@@ -155,8 +156,8 @@ export const time_periods = [
             'Hofmann believed this was no coincidence: America was ripe for such consumption. The 1960’s American reality was characterised by inescapable, excessive materialism; omnipresent industrialisation - and hence alienation from nature increasing too; growingly visible inequity; paralyzing gender norms; controversial wars (Hofmann 41). The left, and the youth - not prototyped by race, or socioeconomic class -  wanted change. LSD was not just viewed as a remedy but as a new lens through which to see and exist in the world. Accessing your consciousness, and transforming yourself was both a revolt against the present pretense and a daring embrace to enact tangible change. ',
 
             '$imgs/lsd_img_6.jpeg',
-			'“Original Bottle of Delysid - Manufactured by Sandoz Pharmaceuticals.” Mapping Ignorance, 7 June 2017, https://mappingignorance.org/2017/06/07/lsd-therapeutic-agent-autism/. Accessed 30 Nov. 2021.',
-
+			'“Timothy Leary.” Britannica, 18 Oct. 2021, https://www.britannica.com/biography/Timothy-Leary. Accessed 30 Nov. 2021.',
+			
             '| The Damage Is Done',
 
             'Hofmann was ultimately saddened by laws that were reactive, not proactive towards LSD. As recreational consumption increased, so did reports of trips gone wrong: speculation of genetic damage, fatal accidents, and even suicide (Hofmann 42). LSD was polarised, classed as a Schedule 1 drug and funding soon dried up for research amidst the negative stigma now attached to LSD. This stigma, in Hofmann’s opinion, was not a reflection of the danger of the drug more so than the danger of its misuse (Hofmann 45). As productive research froze, so did further exploration or realization of LSD’s benefits on the scale and capacity that Hofmann dreamed.',
