@@ -127,4 +127,13 @@
         transform:  translate3d(-50%, -50%, 0px) scale(1);
         opacity: 1;
     }
+
+    @media screen and ( max-height: 699px ) {
+        div{
+            font-size: 1rem;
+        }
+        .datex,.date{
+            font-size: .8rem;
+        }
+    }
 </style>
