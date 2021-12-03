@@ -519,6 +519,7 @@ export const bib = [
             'https://www.originallifemagazines.com/product/life-magazine-may-13-1957/',
             '​​https://www.history.com/news/drug-use-in-vietnam',
             'https://vancouversun.com/news/local-news/a-san-francisco-psychedelic-icon-from-b-c',
+            'https://in.pinterest.com/pin/49891508362996111/'
 
         ]
    }
