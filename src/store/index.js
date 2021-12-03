@@ -112,7 +112,7 @@ export const time_periods = [
 
             '$imgs/lsd_img_3.jpeg',
 
-            **'|First Synthesis and Experiments with LSD'**,         
+            '|First Synthesis and Experiments with LSD',         
 
             'Hofmann had early success as the first person to synthesize (artificially produce) an ergot alkaloid (Hofmann 12). An inspired and excited Hofmann then began producing new lysergic acid compounds (lysergic acid was the name of the nucleus common to all ergot alkaloids) - ones that he hoped would serve as circulatory and respiratory stimulants. In 1938 he produced the 25th substance in this series: what would eventually become known to the world as LSD. In initial testing on animals nothing notable was observed about this substance, aside from the animals becoming restless, so it was shelved indefinitely and testing was discontinued (Hofmann 13).',
             'However, Hofmann remained drawn to this substance. Curiously, he has never provided a logical explanation as to why, merely that he had “a peculiar presentiment - the feeling that this substance could possess properties other than those established in the first investigations” (Hofmann 15).  So, on April 16th, 1943, five years later, he set out to re-synthesize LSD-25 - guided purely by instinct and curiosity. Despite taking careful precautions,  unbeknownst to him at the time, Hofmann absorbed some of the substance through the skin on his fingertips. He “was interrupted in my work by unusual sensations” (Hofmann 15). Therein, unfolded the world’s first LSD trip: intense, colourful, kaleidoscopic and dreamlike. Astounded by the “extraordinary potency” of the substance, Hofmann knew at this point that he had something special on his hands - literally. ',
