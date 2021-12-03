@@ -90,7 +90,7 @@ export const time_periods = [
     },
     {
         title: 'Switzerland: LSD - My Problem Child',
-        time: '1940 - 1970s',
+        time: '1930 - 1950s, 1979',
         bg: '/imgs/lsd_bg.jpeg',
         content: [
 	
@@ -100,7 +100,7 @@ export const time_periods = [
 
             '$imgs/lsd_img_1.jpeg$imgs/lsd_img_2.jpeg',
 
-            '|**Sandoz Pharmaceuticals and the European Pharmaceutical Scene**',
+            **'|Sandoz Pharmaceuticals and the European Pharmaceutical Scene'**,
 
             'Hofmann’s career as a research chemist stemmed from his childhood entrancement with the plant world (Hofmann 4). In 1929 he joined a modest staff force at Sandoz Company\'s pharmaceutical-chemical research laboratory in Basel, Switzerland. His work revolved around isolating the active principles of known medicinal plants to produce pure specimens of these substances (Hofmann 7).',
             'In the early 1930’s Hofmann requested permission to research ergot alkaloids (Hofmann 8). For reference, ergot is a fungus derivative that grows on rye and has a history dating to the Middle Ages where it was used by midwives to induce labour and restrict postpartum bleeding (Pollan 22). At the time, this was a novel focus but other American and British labs had begun making headway. Hofmann, who fervently loved his line of work, noticed this industry shift and was motivated to ensure Sandoz would maintain its reputation as a pioneering lab, and develop a leading position in what he believed to be a promising space (Hofmann 8).',
