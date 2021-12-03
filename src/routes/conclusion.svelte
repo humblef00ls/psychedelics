@@ -35,6 +35,7 @@
         background: white;
         transition: 300ms ease-out;
         height: 100vh;
+        overflow: auto;
     }
     p{
 

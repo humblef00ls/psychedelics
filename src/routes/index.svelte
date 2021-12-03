@@ -141,15 +141,22 @@
 							{#if content[0] == "$"}
 								<p class="img">
 									{#each content.split("$").slice(1) as item}
-
-										<img class={`${item[0]=='L' ? 'si' : 'mi' }`}  
+										<figure>
+										<img class={`ix ${item[0]=='L' ? 'si' : 'mi' }`}  
 										src={item[0]=='L' ?  item.slice(1).split('@')[0] : item.split('@')[0]}
 										 on:click={handleIMG} 
 										alt={item.split('@')[1]?.split('~')[0]}
 										data-ref={item.split('@')[1]?.split('~')[1]}
 										/>
+										<figcaption>{item.split('@')[1]?.split('~')[0]}</figcaption>
+									</figure>
+
+									
 									{/each}
+
 								</p>
+							{:else if content[0]=='|'}
+							<h5>{content.slice(1)}</h5>
 							{:else}
 								<p class="para">{content}</p>
 							{/if}
@@ -162,6 +169,31 @@
 </main>
 
 <style>
+	h5{
+		font-size:1.1em;
+		font-weight:bold;
+		margin:15px;
+		margin-bottom:0;
+	}
+	figcaption{
+		font-size: .75rem;
+		opacity: .5;
+		line-height: normal;
+		margin-top: 20px;
+		text-align: center;
+		max-width: 250px;
+	}
+	figure{
+		height:90%;
+	
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.ix::before{
+		content: attr(alt);
+	}
 	.thesis{
 		height: 100%;
 		overflow-y: auto;
@@ -191,17 +223,17 @@
 		position: fixed;
 		top: 0;
 		left: 0;
-		background-color: rgba(0, 0, 0, 0.5);
+		background-color: rgba(0, 0, 0, 0.7);
 		
 		z-index: 100;
 	}
 	.fullsc{
-		height: 80%;
+		height: 70%;
 		width: auto;
 		max-height: unset;
 		max-width: unset;
 		position: absolute;
-		top: 70px;
+		top: 10%;
 		left: 50%;
 		transform: translate(-50%, 0%);
 		cursor: auto;
@@ -221,9 +253,11 @@
 	}
 	.imgmeta{
 		position: absolute;
-    bottom: 30px;
+		
+    bottom: 0px;
     left: 0;
     width: 100%;
+		height: 20%;
     z-index: 102;
     display: flex;
     justify-content: center;
@@ -253,11 +287,12 @@
 		margin-bottom: 40px;
 		margin-top: 40px;
 	}
-	img {
+
+	.ix {
 		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-		max-width: 50%;
-		height: 90%;
-		max-height: 400px;
+		max-width: 100%;
+
+		height: 100%;
 		cursor: pointer;
 	}
 

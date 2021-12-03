@@ -34,11 +34,13 @@ export const time_periods = [
         content: [
             'The story now shifts to across the ocean. In many ways, the relationship the people of the Aztec empire of the New World had with psychedelics was a direct inversion of what we just saw in Medieval Europe. Here, psychedelics actually held an important role in society in religious contexts and their use was not only tolerated but in fact integral to several ceremonies. The benefit of analysing this setting is that here we get to see the two juxtaposing views of psychedelics interact with each other. This will not only help us follow the compound history of psychedelics, but also reveal to us the motives and beliefs of the people from both cultures.',
 
-            '$/imgs/az_img_1.jpeg@Aztec Mushroom Ceremony~http://herbmuseum.ca/content/aztec-mushroom-ceremony$/imgs/az_img_2.jpeg@Maya mushroom stones~https://en.wikipedia.org/wiki/Entheogenic_drugs_and_the_archaeological_record#/media/File:Psilocybe_Mushrooms_statues.jpg',
+            '$/imgs/az_img_1.jpeg@Aztec Mushroom Ceremony~http://herbmuseum.ca/content/aztec-mushroom-ceremony',
+
+            '$/imgs/az_img_2.jpeg@Maya mushroom stones~https://en.wikipedia.org/wiki/Entheogenic_drugs_and_the_archaeological_record#/media/File:Psilocybe_Mushrooms_statues.jpg',
 
             'Teonanácatl, or more simply known as God\'s Flesh, was a key part of religious activities and rituals in the Aztec capital city of Tenochtitlan. The magic mushrooms allowed those who ingested them to speak directly to God, heal diseases, and even induce sexual ecstacy (Malandra). Mesoamerican tribes had had a long and deep cultural use of hallucinogens, including Psilocybe mushrooms. These mushrooms were often used to commune with the gods, to divine, and for recreation. Archaeologists have found evidence of ritual use of mushrooms by the Aztecs and Mazatecs as early as 200 AD. Mushroom stones and motifs, statuettes, drawings, and recorded history report mushroom use in Guatemala, Mexico, Colima, and throughout the rest of Central America (A complete history of mushrooms). This however, changed forever with the invasion of the Spanish conquistadors in 1519.',
 
-            '$/imgs/az_img_3.webp@The fall of Tenochtitlan~https://www.thehistorypress.co.uk/articles/the-fall-of-tenochtitlan/',
+            '$L/imgs/az_img_3.webp@The fall of Tenochtitlan~https://www.thehistorypress.co.uk/articles/the-fall-of-tenochtitlan/',
 
             'This usage of magic mushrooms was quickly suppressed by Catholic missionaries, who saw the shakes, convulsions, and ravings of patients who had consumed the mushrooms as communication with the devil. Despite this, usage continued, often in private. The first medical record of humans consuming magic mushrooms dates to the late 1500s, and was written by Fray Bernardino de Sahágun: “They ate mushrooms before dawn when they also drank cacao. They ate the mushrooms with honey and when they began to feel excited due to the effect of the mushrooms, the Indians started dancing, while some were singing and others weeping. Thus was the intoxication produced by the mushrooms. Some Indians who did not care to sing sat down in their rooms, remaining there as if to think.” Natives were punished by death when caught with the mushrooms, and their public use became less common (A complete history of mushrooms). Here we see the clash of values and beliefs of these two cultures, proxied through our compound. The positions of both factions reflect their values and goal; one seeking spirituality while the other self-righteously carrying out a ‘mission’. The role of psychedelics for the Aztec people is clear, so the questions to ask here are what role did they play in the goal of the Spanish and what can this tell us about the setting?',
 
@@ -59,12 +61,12 @@ export const time_periods = [
 
             'Native Americans have been using these psychedelics, specifically peyote, for thousands of years. In the 1800s, European colonizers became interested in these drugs that Native Americans were using, which will be discussed more in the next period of time. Native Americans primarily used psychedelics in the context of religion. Natives would take ten or twelve of these buttons, or the equivalent in Peyote, within a certain time frame for religious ceremonies. Native Americans did this to such an extent that they have built a high tolerance to the effects of these buttons. These ceremonies tended to last all night during which men would sit in a circle around the fire. They stare at the fire while taking ten to twelve buttons in a certain time frame. They sit quietly and watch the visions of color while intoxicated. The visions were seen as to see visions from gods or those they worship. After the ceremony they go to work as normal, but abstain from eating salt that day. After the Natives migrated to the Kiowa Reservation they found it hard to obtain the buttons as it was native to Rio Grande, so they have been supplied by traders, who obtain it from the valley of Rio Grande (Prentiss). Psychedelics are also thought to have been used in the Ghost Dance rituals. The Ghost Dance was a ritual attempt by Native Americans to end European aggression. It is thought that individuals were in a peyote-induced trance when they performed the dance. Participants of the Ghost Dance thought that the hallucinogenic experience was instrumental to resisting the racialized violence and dispossession they suffered (Zieger). When the modern-day Native American Church (NAC) was formed in the late 1800s these ceremonies were solidified as a key part of traditions among Native Americans, so much so that peyote was legalized for this purpose alone in 1994 (Prince).',
 
-            '$/imgs/ind_img_1.jpeg@This image is a wood engraving depicting an Indian tribe, specifically the Sioux people, performing the Ghost Dance.~https://www.britannica.com/topic/Ghost-Dance',
+            '$L/imgs/ind_img_1.jpeg@This image is a wood engraving depicting an Indian tribe, specifically the Sioux people, performing the Ghost Dance.~https://www.britannica.com/topic/Ghost-Dance',
 
 
             'Many Indigenous tribes did not have such a scientifically comprehensive picture of how these substances affect the mind, and thus they were more immersed in a ritualistic, spiritual practice that could not be fully explained. In other words, they accepted psychedelics as entheogens: substances that bring forth the divine from within. There truly was no experience more religious, ritualistic, and transcendent. Leaning into potent effects including hallucinations and ego dissolution, they were skilled in channeling the reordering, spiritual energy released by the consumption of psychedelics. They reliably generated and shared mystical experiences for healing purposes, often with the spiritual guidance of a shaman, including chants, singing, and drum circles (Fotiou 2019). Relative to the modern day, there was no stigma towards psychedelic use as it was an accepted and honored healing tool used in social rituals—it was used specifically for its psychedelic healing purposes.In many societies, healers or shamans function as intermediaries between the physical and spiritual world. Illness is thought to be caused by a loss of the soul from the body and the shaman’s role is to enter that world and retrieve it so body and soul are whole again. The use of “spirit guides”, powerful plants or totemic animals assists the shaman in the spirit world. ',
 
-            '$/imgs/ind_img_2.png@ Image of a Tlingit Healer in Alaska, 1906~https://www.fs.fed.us/wildflowers/ethnobotany/Mind_and_Spirit/shamans.shtml',
+            '$L/imgs/ind_img_2.png@ Image of a Tlingit Healer in Alaska, 1906~https://www.fs.fed.us/wildflowers/ethnobotany/Mind_and_Spirit/shamans.shtml',
 
         ]
 
@@ -76,7 +78,7 @@ export const time_periods = [
         content: [
             'In the late 1800s, the “peyote boom” was ignited by a man named John Raleigh Briggs. Briggs was the first to publish the effects of mescaline buttons (Bruhn). In this article he wrote of his firsthand experience taking the substance. He claimed his pulse rate jumped from 60 to 90, his breath quickened, and he began to feel dizzy. He claimed that if prompt aid (whiskey, large doses of smelling salts, and a long walk) had not been given he would’ve died. Brigg’s experiment opened a new world of research for this hallucinogen. Several researchers worked to isolate different alkaloids and test those effects. There was a sense of urgency among scientists to make a breakthrough discovery. This was in light of the discovery that cocaine was addictive and had negative impacts, they started looking at other drugs, specifically hallucinogens. Scientists knew these drugs existed and noticed that native Americans didn’t seem to be suffering from any negative effects such as addiction. Historically psychedelics haven’t been known to cause any negative effects, but some users have reported “bad trips” which are rare. Most of these bad trips cause intense fear and anxiety (Olive, pp. 8-15).',
 
-            '$/imgs/pey_img_1.png@John Raleigh Briggs (1851-1907)~https://www.britannica.com/biography/John-Raleigh-Briggs',
+            '$/imgs/pey_img_1.png@John Raleigh Briggs (1851-1907)~https://doi.org/10.1007/bf02862854',
 
             'Peyote was hard to acquire so experiments were conducted irregularly. The urgency surrounding this “peyote boom” also allowed for little regard to safety and ethics. Arthur Heffter identified four distinct alkaloids by using human subjects including himself to examine the effects of these alkaloids on humans. Heffter reported seeing hallucinations and a loss of sense of time, but said his intellect remained intact. There were countless other incidents of scientists not following today’s standards of ethics. ',
 
@@ -165,19 +167,19 @@ export const time_periods = [
 
     },
     {
-        title: 'WWII: Caption',
+        title: 'WWII: Governments and Experimentation',
         time: '1939 - 1945 ',
         bg: '/imgs/ww2_bg.jpeg',
         content: [
             'During WWII, the Nazis conducted a series of medical experiments on large numbers of prisoners within their concentration camps. These experiments were often cruel and lethal. The Third Reich fit these experiments into three areas: “research aimed at improving the survival and rescue of German troops; testing of medical procedures and pharmaceuticals; and experiments that sought to confirm Nazi racial ideology” (“Medical Experiments.”). Many of these experiments fit into multiple categories, but each experiment often had a main purpose. For example scientists carried out “freezing experiments” on prisoners that were meant to help find an effective treatment for hypothermia. This experiment could fit into the area of testing medical procedures and pharmaceuticals, however it’s main purpose was to improve the survival and rescue of German troops (“Medical Experiments.”). Every experiment sought to further the mission of the Third Reich, which was to create a Greater Germanic Reich. This state was to not only encompass lands already inhabited by Germanic peoples, but also most of Eastern Europe. He sought to eventually colonize the entirety of Europe with those who were not pure-blood German descent serving as slaves. ',
 
-            '$Limgs/ww2_img_2.png@This is what Hitler ultimately wanted the boundaries of the Greater German Reich to be~link',
+            '$Limgs/ww2_img_2.png@This is what Hitler ultimately wanted the boundaries of the Greater German Reich to be~lihttps://en.wikipedia.org/wiki/Greater_Germanic_Reich#/media/File:Greater_Germanic_Reich.pngnk',
 	        
             'During these experiments, the Nazis testes a variety of drugs on inmates including several psychedelics. These psychedelics primarily were mescaline and LSD (Flores). One of the main experiments conducted using psychedelics was the development of a truth serum. The idea of a truth serum has been ingrained within human culture for a while and scientific research regarding this serum started in 1916. However, it wasn’t until WWII that this scientific pursuit truly picked up. Most of the experiments conducted by the Nazis were kept under wraps and the complete list of experiments was revealed after the war had ended. It is highly unlikely that the Allies knew that the Nazis were trying to find a truth serum. However, they were aware the Nazi’s were working with psychedelics. This was due to the British intelligence intercepting a telecommunication that requested a delivery of 50 grams of mescaline for interrogation purposes at the concentration camps Dachau and Auschwitz in mid-1942. Their specific aim was to eliminate the will of the person being examined. The truth serum experiments were aimed at improving the survival and rescue of German troops, so that during interrogation enemies would give information that would help German soldiers survive. They did end up drawing secrets out from inmates, but overall, they had very different reactions to the doses. However, they concluded that mescaline was too unreliable to serve as a truth serum as the outcomes weren’t consistent (Passie).',
             
             'After the United States learned of this experiment, the search for their own serum began in earnest. Several parts of the US government participated in this search and created multiple projects to achieve this including Project BLUEBIRD, Project CHATTER, and Operation CASTIGATE (Passie). In 1953 all of these projects were combined to create the more well-known project MK-ULTRA. MK-ULTRA was run almost entirely by a chemist named Sidney Gottlieb. At the time the director of the CIA, Richard Helms, gave Gottlieb the freedom to do whatever he wanted. Stephen Kinzer, a journalist who spent several years investigating the project, said in an interview that “[MK-ULTRA] most sustained search in history for techniques of mind control” and that “[Sidney Gottlieb] had a license to kill. He was allowed to requisition human subjects across the United States and around the world and subject them to any kind of abuse that he wanted, even up to the level of it being fatal — yet nobody looked over his shoulder.” ',
 
-            '$Limgs/ww2_img_1.jpeg@Sidney Gottlieb~link',
+            '$Limgs/ww2_img_1.jpeg@Sidney Gottlieb~https://www.npr.org/2019/09/09/758989641/the-cias-secret-quest-for-mind-control-torture-lsd-and-a-poisoner-in-chief',
 
             'The CIA established several secret detention centers throughout Europe and East Asia in which they would capture enemy agents and other suspected persons or people who they defined as expendable. They would throw these individuals into cells and test a myriad of hallucinogens on them to understand and break the human mind. These experiments were very much a continuation of work that began in Nazi and Japanese concentration camps. In fact, the CIA hired many vivisectionists and the torturers who worked in Nazi and Japanese concentration camps. A specific example of this is as mentioned before, Nazi doctors had conducted extensive experiments with mescaline at the Dachau concentration camp, so the CIA hired these doctors who were involved in the experiment to advise them. MK-ULTRA didn’t just test these serums on reluctant enemies overseas, they also experimented on prisoners in the US who volunteered. Unfortunately, the CIA misinformed these prisoners stating that the experiment aimed at finding a cure for schizophrenia, when really, they were looking at long term reactions to drugs. One victim of this was crime boss Whitey Bulger who was given LSD every day for more than a year under the guise of finding a cure for schizophrenia. He said that he thought he was going insane. Most of the MK-ULTRA archives were destroyed by Gottlieb, so the full extent of this experiment is still unknown (Gross).',
 
@@ -201,7 +203,7 @@ export const time_periods = [
 
     },
     {
-        title: 'Cold War: Caption',
+        title: 'Cold War: Poison War',
         time: '1946 - 1990s',
         bg: '/imgs/cw_bg.jpeg',
         content: [
@@ -249,15 +251,17 @@ export const time_periods = [
 
             'While these substances have been criminalized for decades, we are actually now seeing a resurgence in positive outlook on psychedelic use. Perceptions of psychedelics have shifted due to emerging research enabled by regulatory approval for performing studies on healthy volunteers. In particular, one of the people leading this effort in the academic realm is Dr. Roland Griffiths, who established a research program dedicated to investigating psilocybin’s effects on the mind. His lab was among the few clinical settings that were revived and received regulatory approval around 1999 (Johns Hopkins Medicine). Over the following several years, many landmark studies were published on the psychotherapeutic potential of psychedelics (especially psilocybin), placing a firm stake in the ground (Johnson and Griffiths, 2017). It was observed that psilocybin is effective for treating PTSD, major depressive disorder, anxiety, addiction, and end-of-life distress (Nichols, 2020). Griffiths even published specifically on the profound effects of mystical experiences on sustained meaning and spirituality. In 2019, he founded the Johns Hopkins Center for Psychedelic and Consciousness Research (https://hopkinspsychedelic.org/), which has a comprehensive focus on studying the workings of the mind using psychedelics (Tom Frame, Psychedelic Timeline). Johns Hopkins, in 2021, received $3.9 million from the NIH for psilocybin trials—the first time in 50 years the government funded psychedelic research. All of this, among many other research initiatives, have sprung up across the U.S. and Europe (Johns Hopkins Medicine). Many other experts, including cognitive scientists, are focused exclusively on mystical psychedelic experiences and their effects on wellbeing (John Vervaeke). As a result, we are observing a tug-and-pull paradigm dynamic between the “drug” and “entheogenic” perspectives.',
 
-            '$Limgs/pd_img_1.jpeg@At the Imperial College in London, Dr. Carhart-Harris founded the Psychedelic Research Group. This diagram displays effects of psilocybin on brain networks. On the left is a normal brain mapping. On the right is a brain mapping following psilocybin treatment. Greater brain network connectivity has been formed.~link',
+            '$Limgs/pd_img_1.jpeg@At the Imperial College in London, Dr. Carhart-Harris founded the Psychedelic Research Group. This diagram displays effects of psilocybin on brain networks. On the left is a normal brain mapping. On the right is a brain mapping following psilocybin treatment. Greater brain network connectivity has been formed.~https://royalsocietypublishing.org/doi/10.1098/rsif.2014.0873',
 
-            '$Limgs/pd_img_2.jpg@Dr. Carhart-Harris’ LSD trials demonstrated that the drug suppresses the Default Mode Network, dramatically increasing communication between brain networks normally segregated. Ego dissolution may happen. ~link',
+            '$Limgs/pd_img_2.jpg@Dr. Carhart-Harris’ LSD trials demonstrated that the drug suppresses the Default Mode Network, dramatically increasing communication between brain networks normally segregated. Ego dissolution may happen. ~https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4855588/?tool=pmcentrez&report=abstract',
 
             'For psychedelic treatments (including ketamine and MDMA), set and setting are the main focus; these therapies are respectful of the volatility in psychedelic experience, and they are done with a trained therapist. Psychedelics are mysterious—as we study them at an accelerated rate, we are building upon our scientific understanding of these drugs and their effects on the mind. Cultural perceptions of psychedelics are now more fully in the hands of scientifically-minded researchers in regulated environments, whose partial mission is to address the stigmas attached to drug use and mental illness. In terms of growing our understanding of these substances, this bodes well; the other half of the puzzle is how we implement them in our society (Carhart-Harris, 2018).',
 
             'Directly resulting from this chain of research, 2019 marked the year when several cities in the U.S. began decriminalizing psychedelics, including Santa Cruz, Denver, Ann Arbor, and D.C. Several states have been reviewing legislation to legalize these substances. In an especially progressive move, the whole state of Oregon has made psychedelic use legal (among heroine, cocaine, etc). In the state-legislated program called the “Oregon Model,” a facilitator is trained in both Western and Indigenous use of psychedelics (Marks and Cohen, 2021). Outside of the U.S., psychedelics are legal in Brazil and Peru, and the Netherlands is known for allowing psilocybin in the form of truffles. Several other nations land in a gray zone, and may be funding research.',
 
-            '$imgs/pd_img_3.jpeg@Pictured is an interactive map showing the current legal status of psilocybin through the U.S.~https://psilocybinalpha.com/data/psychedelic-laws$imgs/pd_img_4.png@A global map displaying psilocybin legality across the globe; red is illegal, orange contains legalized cities, yellow is partially legal, green is legal for medicinal use, and blue is legal~https://en.wikipedia.org/wiki/Legal_status_of_psilocybin_mushrooms',
+            '$Limgs/pd_img_3.jpeg@Pictured is an interactive map showing the current legal status of psilocybin through the U.S.~https://psilocybinalpha.com/data/psychedelic-laws',
+            
+            '$Limgs/pd_img_4.png@A global map displaying psilocybin legality across the globe; red is illegal, orange contains legalized cities, yellow is partially legal, green is legal for medicinal use, and blue is legal~https://en.wikipedia.org/wiki/Legal_status_of_psilocybin_mushrooms',
 
             'Legal battles for psychedelics are fought by those who advocate for them as medicines, spiritual devices, and even for recreation. The miniscule change brought by these efforts generates more funding for research, which in turn shifts cultural perception of these drugs, sparking more advocacy—that is, unless the government pushes back. The battles fought for psychedelic rights over the past several decades have served as fascinating examples of chemical governance. It is likely that psychedelics will remain in their current valley of stable equilibrium; some persistent governmental regulation will allow these substances a slow, controlled trickle into their medicinal use cases.',
 
@@ -292,6 +296,7 @@ export const themes = [
     },
     {
         title: 'Ethics in Grey Zones',
+        bg: '/imgs/eth_bg.jpeg',
         content: [
             'Psychedelics have had a contentious relationship with ethics throughout history. The compound history of psychedelics has influenced what we view as ethical today. It’s not that ethical standards have changed in a vacuum. ',
 
@@ -306,6 +311,7 @@ export const themes = [
     },
     {
         title: 'Adopting and Assuming Identities',
+        bg: '/imgs/idn_bg.jpeg',
         content: [
             'Throughout their compound history, psychedelics have been used by various communities and populations of people. However, a notable trend is that psychedelics often adopt the identities of the individuals who use them. This is regardless of the user’s identity: whether they are viewed positively or negatively, whether they are highly admired or heavily stigmatized. Psychedelics will adopt the likeness of their users, whatever society deems that to be. However, this is not a simple one-way-street. Psychedelics themselves have their own characteristics and qualities. These traits pass on to the communities who use them, and influences how society at large understands these groups.',
 
@@ -317,6 +323,7 @@ export const themes = [
     },
     {
         title: 'Science and Spirituality at Odds',
+        bg: '/imgs/sc_bg.jpeg',
         content: [
             'Used sacramentally by Indigenous cultures as a gateway to a mystical plane of existence, psychedelics have been slippery substances to integrate into our colonial, scientific society. In the Present Day, psychedelics have become progressively considered by experts in mental health, mindfulness, and cognitive science to have tremendous potential to both treat neuroses and challenge long standing beliefs dwindling in utility.',
             
@@ -341,18 +348,179 @@ export const themes = [
 
 export const bib = [
 
-    'Hofmann, Albert. “Chapter 1.” LSD: My Problem Child – Reflections on Sacred Drugs, Mysticism and Science (1979), MAPS, Multidisciplinary Association for Psychedelic Studies, Santa Cruz, CA, 2009, pp. 2–72.',
-    '“LSD\'s Long, Strange Trip | Retro Report | The New York Times.” YouTube, 16 May 2016, https://www.youtube.com/watch?v=WouOr579mfY. Accessed 3 Nov. 2021',
-    'Pollan, Michael. “Chapter One: A Renaissance.” How to Change Your Mind: The New Science of Psychedelics, Penguin Books, New York, NY, 2018, pp. 21–61.',
-    'Papadokonstantakis, Stavros, et al. “Switzerland: The Success of Its Chemicals and Pharmaceuticals Industries.” CEP, Dec. 2013, pp. 31–34.',
-    '“A History of the Pharmaceutical Industry.” Pharmaphorum, Pharmaphorum, 1 Sept. 2020, https://pharmaphorum.com/r-d/a_history_of_the_pharmaceutical_industry/.',
-    '“A Formula for Success: Inside Swiss Pharma.” Pharmaceutical Technology, 13 June 2018, https://www.pharmaceutical-technology.com/features/formula-success-inside-swiss-pharma/.',
-    'Hanley, Brian P., et al. “Review of Scientific Self-Experimentation: Ethics History, Regulation, Scenarios, and Views among Ethics Committees and Prominent Scientists.” Rejuvenation Research, vol. 22, no. 1, 19 Feb. 2019, pp. 31–42., https://doi.org/10.1089/rej.2018.2059.',
-    'Lemle, Mickey, director. Ram Dass, Fierce Grace. Documentary, 2001.',
-    '“Timothy Leary.” Wikipedia, Wikimedia Foundation, 19 Nov. 2021, https://en.wikipedia.org/wiki/Timothy_Leary.',
-    'Timothy Leary, Harvard University, https://psychology.fas.harvard.edu/people/timothy-leary.',
-    'Freeman, Shanna, and Nathan Chandler. “How LSD Works.” HowStuffWorks Science, HowStuffWorks, 27 Jan. 2020, https://science.howstuffworks.com/lsd7.htm.',
-    'Witt, Emily, and Hua Hsu. “The Psychedelic Renaissance: Trip Reports from Timothy Leary, Michael Pollan, and Tao Lin.” The New Yorker, The New Yorker, 29 May 2018, https://www.newyorker.com/books/under-review/the-science-of-the-psychedelic-renaissance.',
-    'Abbott, Alison. “Altered Minds: Mescaline\'s Complicated History.” Nature News, Nature Publishing Group, 20 May 2019, https://www.nature.com/articles/d41586-019-01571-2.',
+
+    
+    {
+        section: 'Europe: The Middle Ages',
+        items:[
+            'Lee, M.R.. (2007). Solanaceae IV: Atropa belladonna, deadly nightshade. The journal of the Royal College of Physicians of Edinburgh. 37. 77-84. ',
+            '​​Alonso, Félix, and María del Carmen Peña-Chocarro . “Magical, Mystical and Medicinal.” Exhibition, Europeana, https://www.europeana.eu/en/exhibitions/magical-mystical-and-medicinal/psychoactive-plants-introduction.',
+            'Guilford, Gwynn. “Germany Was Once the Witch-Burning Capital of the World. Here’s Why.” Quartz, Quartz, 27 Jan. 2018, https://qz.com/1183992/why-europe-was-overrun-by-witch-hunts-in-early-modern-history/.',
+            'Hagan, Ada. “From Poisoning to Pharmacy: A Tale of Two Ergots.” ASM.org, American Society for Microbiology, 2 Nov. 2018, https://asm.org/Articles/2018/November/From-Poisoning-to-Pharmacy-A-Tale-of-Two-Ergots.',
+            'Larkin, Deirdre. “The Nightshades.” The Medieval Garden Enclosed, THE MET CLOISTERS MUSEUM & GARDENS, 7 Nov. 2008, https://blog.metmuseum.org/cloistersgardens/2008/11/07/the-nightshades/.',
+            'Lienhard, John H. “RYE ERGOT AND WITCHES.” No. 1037: Rye Ergot and Witches, University of Houston, https://www.uh.edu/engines/epi1037.htm.',
+            'Mason, Jessica. “The Secrets behind How Witches \'Flew\'.” The Mary Sue, The Mary Sue, 14 Oct. 2020, https://www.themarysue.com/witches-flying-ointment-history/.',
+            'Pennant-Rea, Ned. “The Dancing Plague of 1518.” The Public Domain Review, The Public Domain Review, 10 July 2018, https://publicdomainreview.org/essay/the-dancing-plague-of-1518.',
+            'Pliny. Historia Naturalis. Bartholomaeus De Zanis, 1489.',
+            '“The Powerful Solanaceae: Witchcraft in the Middle Ages.” U.S. FOREST SERVICE, United States Department of Agriculture, https://www.fs.fed.us/wildflowers/ethnobotany/Mind_and_Spirit/witchcraft.shtml.',
+            'Whalley, Joyce Irene. Pliny the Elder: Historia Naturalis. Victoria and Albert Museum, 1982. ',
+        ]
+    },
+    {
+        section: 'Aztec Empire: The New World',
+        items:[
+            'A Complete History of Mushrooms. Beginnings Treatment Centers, 4 Nov. 2020, https://beginningstreatment.com/a-complete-history-of-mushrooms/.',
+            'Gallagher, Gary W., et al. The Great Spanish Conquistadors. The Great Courses Daily, 23 Nov. 2020, https://www.thegreatcoursesdaily.com/the-great-spanish-conquistadors/.',
+            'Malandra, Ocean. Sacred Mushrooms & the Catholic Church. CLASSROOM, 28 Sept. 2017, https://classroom.synonym.com/sacred-mushrooms-the-catholic-church-12085856.html.',
+            'Szalay, Jessie. Hernán Cortés: Conqueror of the Aztecs. LiveScience, 29 Sept. 2017, https://www.livescience.com/39238-hernan-cortes-conqueror-of-the-aztecs.html.',
+            'Sánchez, Joseph P. “The Significance of Spanish Colonial Missions in Our National Story and Our Common Heritage with Spain, Mexico and Latin America (U.S. National Park Service).” National Parks Service, U.S. Department of the Interior, https://www.nps.gov/articles/significance-of-missions.htm.', 
+            
+        ]
+    },
+
+    {
+        section: 'North America: Indegenous Tribes',
+        items:[
+            'Fotiou, Evgenia. “The Role of Indigenous Knowledge in Psychedelic Science.” Journal of Psychedelic Studies, vol. 4, no. 1, 2019, pp. 16–23., https://doi.org/10.1556/2054.2019.031.',
+            'Prentiss, Daniel W., and Francis P. Morgan. “Anhalonium Lewinii (Mescal Buttons): a study of the drug, with especial reference to its physiological action upon man, with report of experiments” Detroit, Michigan, George S. Davis,  1895.',
+            'Prince, Mark A, et al. “Examination of Recreational and Spiritual Peyote Use among American Indian Youth.” Journal of Studies on Alcohol and Drugs, Rutgers University, May 2019, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6614926/. ',
+            'Williams, Luke. “Human Psychedelic Research: A Historical and Sociological Analysis.” MAPS, Apr. 1999, https://maps.org/index.php?option=com_content&view=article&id=5468#earlyresearchlsd. ',
+            'Zieger, Susan. “Victorian Hallucinogens – Romanticism and Victorianism on the Net.” Érudit, Université De Montréal, 9 Apr. 2008, https://www.erudit.org/en/journals/ravon/2008-n49-ravon2175/017857ar/.',
+        ]
+    },
+
+
+    {
+        section: 'United States and Germany: Peyote Boom',
+        items:[
+            'Bruhn, Jan G., and Bo Holmstedt. “Early Peyote Research an Interdisciplinary Study.” Economic Botany, vol. 28, no. 4, 1973, pp. 353–390., https://doi.org/10.1007/bf02862854. ',
+            'Dawson, Alexander S. “Chapter One 1887.” The Peyote Effect: From the Inquisition to the War on Drugs, University of California Press, 2018. ',
+            'Landecker, Hannah. “A Metabolic History of Manufacturing Waste: Food Commodities and Their Outsides.” Food, Culture & Society 22, no. 5 (2019): 530–47. https://doi.org/10.1080/15528014.2019.1638110.',
+            'Olive, M. Foster, and D. J. Triggle. “Hallucinogens: An Overview.” Peyote and Mescaline, Chelsea House, New York, 2007, pp. 8–15.',
+        
+        ]
+    },
+    {
+        section: 'Switzerland: LSD - My Problem Child',
+        items:[
+            'Abbott, Alison. “Altered Minds: Mescaline\'s Complicated History.” Nature News, Nature Publishing Group, 20 May 2019, https://www.nature.com/articles/d41586-019-01571-2.',
+            '“Albert Hofmann Holds a Model of an LSD Molecule.” Nature, 22 May 2013, https://www.nature.com/articles/497435a. Accessed 30 Nov. 2021.',
+            'Blomerth, Brian. “Bicycle Day.” Los Angeles Times, 26 June 2019, https://www.latimes.com/books/la-ca-jc-bicycle-day-brian-blomerth-lsd-history-20190626-story.html. Accessed 30 Nov. 2021.',
+            '“Example of Rye with Ergot.” Food Safety News, 1 Sept. 2021, https://www.foodsafetynews.com/2021/09/europe-sets-new-ergot-alkaloids-limits/. Accessed 30 Nov. 2021.',
+            '“A Formula for Success: Inside Swiss Pharma.” Pharmaceutical Technology, 13 June 2018, https://www.pharmaceutical-technology.com/features/formula-success-inside-swiss-pharma/.',
+            'Freeman, Shanna, and Nathan Chandler. “How LSD Works.” HowStuffWorks Science, HowStuffWorks, 27 Jan. 2020, https://science.howstuffworks.com/lsd7.htm.',
+            'Hanley, Brian P., et al. “Review of Scientific Self-Experimentation: Ethics History, Regulation, Scenarios, and Views among Ethics Committees and Prominent Scientists.” Rejuvenation Research, vol. 22, no. 1, 19 Feb. 2019, pp. 31–42., https://doi.org/10.1089/rej.2018.2059.',
+            'Hofmann, Albert. “Chapter 1.” LSD: My Problem Child – Reflections on Sacred Drugs, Mysticism and Science (1979), MAPS, Multidisciplinary Association for Psychedelic Studies, Santa Cruz, CA, 2009, pp. 2–72.',
+            '“A History of the Pharmaceutical Industry.” Pharmaphorum, Pharmaphorum, 1 Sept. 2020, https://pharmaphorum.com/r-d/a_history_of_the_pharmaceutical_industry/.',
+            'Lemle, Mickey, director. Ram Dass, Fierce Grace. Documentary, 2001',
+            '“LSD\'s Long, Strange Trip | Retro Report | The New York Times.” YouTube, 16 May 2016, https://www.youtube.com/watch?v=WouOr579mfY. Accessed 3 Nov. 2021',
+            '“LSD: My Problem Child: Reflections on Sacred Drugs, Mysticism and Science.” The Book Merchant Jenkins Antiquarian Bookseller, https://www.thebookmerchantjenkins.com/product/lsd-my-problem-child-reflections-on-sacred-drugs-mysticism-and-science-2/. Accessed 30 Nov. 2021.',
+            '“Original Bottle of Delysid - Manufactured by Sandoz Pharmaceuticals.” Mapping Ignorance, 7 June 2017, https://mappingignorance.org/2017/06/07/lsd-therapeutic-agent-autism/. Accessed 30 Nov. 2021.',
+            'Papadokonstantakis, Stavros, et al. “Switzerland: The Success of Its Chemicals and Pharmaceuticals Industries.” CEP, Dec. 2013, pp. 31–34.',
+            'Pollan, Michael. “Chapter One: A Renaissance.” How to Change Your Mind: The New Science of Psychedelics, Penguin Books, New York, NY, 2018, pp. 21–61.',
+            'Timothy Leary, Harvard University, https://psychology.fas.harvard.edu/people/timothy-leary.',
+            '“Timothy Leary.” Britannica, 18 Oct. 2021, https://www.britannica.com/biography/Timothy-Leary. Accessed 30 Nov. 2021.',
+            '“Timothy Leary.” Wikipedia, Wikimedia Foundation, 19 Nov. 2021, https://en.wikipedia.org/wiki/Timothy_Leary.  Accessed 30 Nov. 2021.',
+            'Witt, Emily, and Hua Hsu. “The Psychedelic Renaissance: Trip Reports from Timothy Leary, Michael Pollan, and Tao Lin.” The New Yorker, The New Yorker, 29 May 2018, https://www.newyorker.com/books/under-review/the-science-of-the-psychedelic-renaissance. ',     
+        ]
+    },
+
+    {
+        section: 'WWII: Governments and Experimentation',
+        items:[
+            'Flores, David. “Mind Control: From Nazis to DARPA .” JSM Central, SM Physical Medicine & Rehabilitation,  2018, https://www.jsmcentral.org/sm-physical-medicine/fulltext_smpmr-v2-1007.pdf. ',
+            'Gross, Terry, and Stephen Kinzer. “The CIA\'s Secret Quest For Mind Control: Torture, LSD And A \'Poisoner In Chief\'.” NPR, https://www.npr.org/2019/09/09/758989641/the-cias-secret-quest-for-mind-control-torture-lsd-and-a-poisoner-in-chief. Accessed 9 Sept. 2019. ',
+            '“Medical Experiments.” United States Holocaust Memorial Museum, United States Holocaust Memorial Museum, https://www.ushmm.org/collections/bibliography/medical-experiments. ',
+            'Passie, Torsten, and Udo Benzenhöfer. “MDA, MDMA, and Other ‘Mescaline-like’ Substances in the US Military\'s Search for a Truth Drug (1940s to 1960s).” Drug Testing and Analysis, vol. 10, no. 1, 2017, pp. 72–80., https://doi.org/10.1002/dta.2292. ',
+            
+        ]
+    },
+    {
+        section: 'Central Mexico: Seeking the Magic Mushroom',
+        items:[
+           'Wasson, Robert Gordon. “Seeking the Magic Mushroom.” Life, 1957.'  
+        ]
+    },
+    {
+        section: 'Cold War: Poison War',
+        items:[
+            'Cranston, Maurice. "ideology". Encyclopedia Britannica, 27 Oct. 2020, https://www.britannica.com/topic/ideology-society. Accessed 29 November 2021.',
+            'Mida, M. (1967). LSD Flesh of the Devil [Review of LSD Flesh of the Devil]. In Bema Films (Ed.), Bema Films. https://www.imdb.com/title/tt0183384/',
+        ]
+    },
+    {
+        section: 'Counter Culture: Flesh of the Devil',
+        items:[
+            'Beres, Derek. “Why are Psychedelics Illegal?” Psychedelic Spotlight, October 13 , 2020, https://psychedelicspotlight.com/why-are-psychedelics-illegal/',
+            'Crawford, Matthew James, “Quina as a Medicament from the Andean World,” in The Andean Wonder Drug: Cinchona Bark and Imperial Science in the Spanish Atlantic, 1630-1800 (Pittsburgh, PA: University of Pittsburgh Press, 2016), 23-42.',
+            'Department of Justice/Drug Enforcement Administration Drug Fact Sheet. https://www.dea.gov/sites/default/files/2020-06/Psilocybin-2020.pdf',
+            'Fotiou, Evgenia. “The Globalization of Ayahuasca Shamanism and the Erasure of Indigenous Shamanism.” Anthropology of Consciousness, vol. 27, no. 2, 2016, pp. 151–179., https://doi.org/10.1111/anoc.12056.',
+            'Guilmartin, John F. “America in Vietnam: A Working-Class War?” Reviews in American History, vol. 22, no. 2, Johns Hopkins University Press, 1994, pp. 322–27, https://doi.org/10.2307/2702905.',
+            'Hyde, C., et al. “Abuse of Indigenous Psilocybin Mushrooms: A New Fashion and Some Psychiatric Complications.” British Journal of Psychiatry, vol. 132, no. 6, 1978, pp. 602–604., https://doi.org/10.1192/bjp.132.6.602. ',
+            'Janos, Adam. “G.I.s\' Drug Use in Vietnam Soared-with Their Commanders\' Help.” History.com, A&E Television Networks, 18 Apr. 2018, https://www.history.com/news/drug-use-in-vietnam',
+        ]
+    },
+    {
+        section: 'Present Day: Research and Regulation',
+        items:[
+            'Carhart-Harris, Robin, et al. Neural correlates of the LSD experience revealed by multimodal neuroimaging PNAS April 26, 2016 113 (17) 4853-4858; first published April 11, 2016; https://doi.org/10.1073/pnas.1518377113.',
+            'Carhart-Harris, Robin L, et al. “Psychedelics and the Essential Importance of Context.” Journal of Psychopharmacology, vol. 32, no. 7, 2018, pp. 725–731., https://doi.org/10.1177/0269881118754710.',
+            'Frame, Tom. “Psychedelic Timeline.” October 18th, 2021, https://psychedelictimes.com/psychedelic-timeline/',
+            'Griffiths, Roland R.  https://www.hopkinsmedicine.org/profiles/details/roland-griffiths',
+            '“Johns Hopkins Medicine Receives First Federal Grant for Psychedelic Treatment Research in 50 years.” Johns Hopkins Medicine. https://www.hopkinsmedicine.org/news/newsroom/news-releases/johns-hopkins-medicine-receives-first-federal-grant-for-psychedelic-treatment-research-in-50-years',
+            'Johnson, Matthew W., and Roland R. Griffiths. “Potential Therapeutic Effects of Psilocybin.” Neurotherapeutics, vol. 14, no. 3, 2017, pp. 734–740., https://doi.org/10.1007/s13311-017-0542-y. ',
+            '“Legal Status” of Psilocybin Mushrooms.” https://en.wikipedia.org/wiki/Legal_status_of_psilocybin_mushrooms',
+            'Marks, Mason, and I. Glenn Cohen. “Psychedelic Therapy: A Roadmap for Wider Acceptance and Utilization.” Nature Medicine, vol. 27, no. 10, 2021, pp. 1669–1671., https://doi.org/10.1038/s41591-021-01530-3.',
+            'Morris, Kelly. “Research on Psychedelics Moves into the Mainstream.” The Lancet, vol. 371, no. 9623, 2008, pp. 1491–1492., https://doi.org/10.1016/s0140-6736(08)60638-8.',
+            'Nichols, David E., and Hannes Walter. “The History of Psychedelics in Psychiatry.” Pharmacopsychiatry, vol. 54, no. 04, 2020, pp. 151–166., https://doi.org/10.1055/a-1310-3990.',
+            'Petri, G., et al. “Homological Scaffolds of Brain Functional Networks.” Journal of The Royal Society Interface, vol. 11, no. 101, 2014, p. 20140873., https://doi.org/10.1098/rsif.2014.0873. ',
+            'Vervaeke, John, http://johnvervaeke.com/. ',
+
+        ]
+    },
+
+
+    {
+        section: 'Conclusion',
+        items:[
+            'Carhart-Harris, Robin L, and Guy M Goodwin. “The Therapeutic Potential of Psychedelic Drugs: Past, Present, and Future.” Neuropsychopharmacology : official publication of the American College of Neuropsychopharmacology vol. 42,11 (2017): 2105-2113. doi:10.1038/npp.2017.84'
+        ]
+    },
+   
+    {
+        section: 'Adopting and Assuming Identities',
+        items:[
+            'Dipaolo, Miranda. “LSD and the Hippies: A Focused Analysis of Criminalization and Persecution in the Sixties.” The People, Ideas, and Things Journal, PIT Journal, 2018, http://pitjournal.unc.edu/content/lsd-and-hippies-focused-analysis-criminalization-and-persecution-sixties',
+            'Goode, Erich. "Moral Panicsand Disproportionality: The Case of LSD Use in the Sixties." Deviant Behavior, vol. 29, no. 6, 2008, p. 533-543. HeinOnline, https://heinonline.org/HOL/P?h=hein.journals/devbh29&i=530',
+            'Teresi, D. (2007, June 3). Do You Believe in Magic? The New York Times. https://www.nytimes.com/2007/06/03/books/review/Teresi-t.html',
+            'Wasson, Robert Gordon. “Seeking the Magic Mushroom.” Life, 1957.',
+        ]
+    },
+    {
+        section: 'Themes Background Photos',
+
+        items:[
+            'https://unsplash.com/photos/zeH-ljawHtg',
+            'https://unsplash.com/photos/2RRq1BHPq4E',
+            'https://unsplash.com/photos/gKUC4TMhOiY',
+            'https://unsplash.com/photos/2LowviVHZ-E',
+        ]
+   },
+
+    {
+        section: 'Timeline Background Photos',
+        items:[
+            'https://www.warrior.do/sacred-mushroom-and-the-cross/',
+            'https://jedwheeler.com/2018/02/conquest-culture/',
+            'https://www.artstation.com/artwork/AJD1N',
+            'https://www.pricecheck.co.za/offers/77019979/Peyote+Cactus+-+Lophophora+Williamsii+-+Seeds+-+Cacti+Succulents+-+5+Seeds',
+            'https://www.worthpoint.com/worthopedia/albert-hofmann-hoffman-lsd-1909311926',
+            'http://eskify.com/10-worst-american-human-experiments/',
+            'https://www.originallifemagazines.com/product/life-magazine-may-13-1957/',
+            '​​https://www.history.com/news/drug-use-in-vietnam',
+            'https://vancouversun.com/news/local-news/a-san-francisco-psychedelic-icon-from-b-c',
+
+        ]
+   }
 
 ]

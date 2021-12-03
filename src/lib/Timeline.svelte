@@ -26,7 +26,9 @@
                 
             
             <div href={`/#${time_period.title.split(" ").join("")}`} class:active={ i == sector } on:click={()=>handleclick(i)}>
-                {time_period.title}<span class="date">{time_period.time}</span></div
+                {time_period.title.split(":")[0]} 
+                <span class="datex">{time_period.title.split(":")[1]}</span>
+                <span class="date">{time_period.time}</span></div
             >
         </li>
     {/each}
@@ -43,6 +45,7 @@
         height:calc(100% - 100px);
         opacity: .5;
         z-index: -1;
+        border-radius: 50px;
     }
     .dotx{
       
@@ -84,6 +87,16 @@
     .date{
         font-size: .9rem;
         opacity: 0.7;
+        font-size: italic;
+        font-weight: 400;
+        letter-spacing: 1px;
+        display: block;
+
+            
+    }
+    .datex{
+        font-size: 1rem;
+       
         font-size: italic;
         font-weight: 400;
         letter-spacing: 1px;
