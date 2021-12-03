@@ -111,6 +111,8 @@ export const time_periods = [
             'This period came prior to the development of the Nuremberg Principles. These formalised ethical practices in biomedicine in response to the horrific war crimes and Nazi prisoner experiments of World War 2 (Hanley, 33). Though the Nuremberg Principles have been influential towards contemporary ethical regulations, when they were introduced they weren’t universally binding. They also focused mostly on patient rights, including the right to informed consent without coercion. Also, they made explicit that “medical practice should be for the benefit of the patient, and if for research that does not directly benefit the patient, it should not harm the patient” (Hanley, 33). Though the Nuremberg principles weren’t even written during Hofmann’s self-experimentation with LSD (see First Synthesis and Experiments with LSD), they give a sense of European state of affairs pertaining to research and ethical standards in this time period directly prior to their conception.',
 
             '$imgs/lsd_img_3.jpeg',
+			'Left: “Albert Hofmann Holds a Model of an LSD Molecule.” Nature, 22 May 2013, https://www.nature.com/articles/497435a. Accessed 30 Nov. 2021',
+			'Right: “LSD: My Problem Child: Reflections on Sacred Drugs, Mysticism and Science.” The Book Merchant Jenkins Antiquarian Bookseller, https://www.thebookmerchantjenkins.com/product/lsd-my-problem-child-reflections-on-sacred-drugs-mysticism-and-science-2/. Accessed 30 Nov. 2021.',
 
             '| First Synthesis and Experiments with LSD',         
 
@@ -121,6 +123,7 @@ export const time_periods = [
             'Hofmann turned out more than fine. Once the worst of his trip had passed, he was able to enjoy the remainder, and the aftermath. The next morning he woke up to “a sensation of well-being and renewed life” flowing through him. Trivial daily minutia - like eating breakfast, gave him “extraordinary pleasure” and he felt “the world was as if newly created” (Hofmann 18).',
 
             '$imgs/lsd_img_4.jpeg',
+			'“Example of Rye with Ergot.” Food Safety News, 1 Sept. 2021, https://www.foodsafetynews.com/2021/09/europe-sets-new-ergot-alkaloids-limits/. Accessed 30 Nov. 2021.',
 
             '| Hofmann’s Initial Impressions of LSD',
 
@@ -138,6 +141,7 @@ export const time_periods = [
             ',
 
             '$imgs/lsd_img_5.jpeg',
+			'Blomerth, Brian. “Bicycle Day.” Los Angeles Times, 26 June 2019, https://www.latimes.com/books/la-ca-jc-bicycle-day-brian-blomerth-lsd-history-20190626-story.html. Accessed 30 Nov. 2021.',
 
             '| World’s Collide: LSD Meets Counterculture',
 
@@ -151,6 +155,7 @@ export const time_periods = [
             'Hofmann believed this was no coincidence: America was ripe for such consumption. The 1960’s American reality was characterised by inescapable, excessive materialism; omnipresent industrialisation - and hence alienation from nature increasing too; growingly visible inequity; paralyzing gender norms; controversial wars (Hofmann 41). The left, and the youth - not prototyped by race, or socioeconomic class -  wanted change. LSD was not just viewed as a remedy but as a new lens through which to see and exist in the world. Accessing your consciousness, and transforming yourself was both a revolt against the present pretense and a daring embrace to enact tangible change. ',
 
             '$imgs/lsd_img_6.jpeg',
+			'“Original Bottle of Delysid - Manufactured by Sandoz Pharmaceuticals.” Mapping Ignorance, 7 June 2017, https://mappingignorance.org/2017/06/07/lsd-therapeutic-agent-autism/. Accessed 30 Nov. 2021.',
 
             '| The Damage Is Done',
 
