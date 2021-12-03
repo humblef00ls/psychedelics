@@ -108,6 +108,10 @@
 
 			History of <span class="ch">Psychedelics</span>
 		</h1>
+
+		<h6
+		class={`ops ${!flip ? "showx" : "hidex"}`}
+		>By Aparimeya Taneja, Geroge Romero, Jia Dua, Kaitlyn Lewars, Will Carson</h6>
 	</section>
 	<div class="container" id="home">
 		<section class={`thesiser infox ${flip ? "sshift" : ""} `}>
@@ -169,6 +173,19 @@
 </main>
 
 <style>
+	h6{
+		color: rgb(175, 175, 175);
+		position: absolute;
+		bottom: 0;
+		font-size: 1rem;
+		left: 50%;
+		transform:  translate3d(-50%, 0, 0);
+		width: 100%;
+		padding: 50px;
+		text-align: center;
+
+	}
+
 	h5{
 		font-size:1.1em;
 		font-weight:bold;
